@@ -1,0 +1,239 @@
+html,body,header,div,nav,img,ul,li,a,main,h1,strong,article,h2,p,footer,span,h3{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    box-shadow: 0px 0px 4px 3px rgb(0 0 0 / 20%);
+}
+
+.header_logo{
+    padding-left: 3rem;   
+}
+
+.header_logo img{
+    height: 50px;
+}
+
+.header_menu ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.header_menu li{
+    list-style: none;
+}
+
+.header_menu a{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875rem;
+    color: #2d2d2d;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header_menu a:hover{
+    color:#0000ff
+}
+
+.texto_azul{
+    color:#0000ff
+}
+
+.header_botao{
+    background-color: #0000ff;
+    width: 28.625rem;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.header_botao a{
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+.header_botao:hover{
+    background-color: #3532ff;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: #0000ff;
+    font-size: 2.25rem;
+    font-family: "JetBrains Mono", monospace;
+    text-align: center;
+}
+
+.main_menu{
+    display: flex;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 30px;
+}
+
+.menu_position{
+    display: flex;
+    justify-content: flex-end;
+    width: 140px;
+}
+
+.menu_position a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.8rem;
+    color: #2d2d2d;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu_position a:hover{
+    color: #0000ff;
+}
+
+.main_menu ul{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    width: 100%;
+}
+
+.main_menu li{
+    list-style: none;
+    font-weight: 700;
+    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main_menu span{
+    font-weight: 300;
+}
+
+.main_menu img{
+    border-radius: 50%;
+    height: 40px;
+}
+
+article{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.8;
+    color: #2d2d2d;
+    margin-bottom: 50px;
+}
+
+article ul{
+    padding-left: 30px;
+}
+
+h2{
+    font-size: 1.5em;
+    margin: 0.3em 0;
+}
+
+footer{
+    background-color: #0a1e32;
+}
+
+footer h3{
+    list-style: none;
+    font-family: "JetBrains Mono", monospace;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+}
+
+.footer_top{
+    display: flex;
+    height: 430px;
+    align-items: flex-start;
+    margin: 0 auto;
+    transform: translateY(64px);
+}
+
+.footer_rede{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+
+.footer_rede li{
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer_rede a{
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.footer_rede a:hover{
+    color: #0000ff;
+}
+
+.footer_contato{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+
+.footer_contato li{
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer_contato a{
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.footer_contato a:hover{
+    color: #0000ff;
+}
+
+.bottom{
+    display: flex;
+    border-top: 1px solid #2b80d5;
+    height: 85px;
+    align-items: center;
+    justify-content: center;
+    color: #2b80d5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875rem;
+}
